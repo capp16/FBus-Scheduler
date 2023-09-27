@@ -1,0 +1,240 @@
+{
+  "busList": [
+    {
+      "id": "1",
+      "driverName": "Suresh",
+      "depart_from": "Jaipur",
+      "going_to": "Jodhpur",
+      "stations": ["Ajmer", "Pushkar", "Nagaur"],
+      "last_ten_rides": [
+        { "noOfPassenger": 20 },
+        { "noOfPassenger": 22 },
+        { "noOfPassenger": 21 },
+        { "noOfPassenger": 24 },
+        { "noOfPassenger": 23 },
+        { "noOfPassenger": 19 },
+        { "noOfPassenger": 25 },
+        { "noOfPassenger": 26 },
+        { "noOfPassenger": 20 },
+        { "noOfPassenger": 22 }
+      ],
+      "bus_no": "RJ14-AB-1234",
+      "no_of_seats": 50,
+      "emergency_contact": 9123421222,
+      "live_status": { "isrunning": "active", "seatVacant": 28 }
+    },
+    {
+      "id": "2",
+      "driverName": "Rajesh",
+      "depart_from": "Jodhpur",
+      "going_to": "Udaipur",
+      "stations": ["Pali", "Sirohi", "Mount Abu"],
+      "last_ten_rides": [
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 32 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 33 },
+        { "noOfPassenger": 29 },
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 34 },
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 35 }
+      ],
+      "bus_no": "RJ14-CD-5678",
+      "no_of_seats": 45,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "active", "seatVacant": 15 }
+    },
+    {
+      "id": "3",
+      "driverName": "Anil",
+      "depart_from": "Udaipur",
+      "going_to": "Jaipur",
+      "stations": ["Chittorgarh", "Bhilwara", "Ajmer"],
+      "last_ten_rides": [
+        { "noOfPassenger": 25 },
+        { "noOfPassenger": 27 },
+        { "noOfPassenger": 24 },
+        { "noOfPassenger": 26 },
+        { "noOfPassenger": 23 },
+        { "noOfPassenger": 22 },
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 25 },
+        { "noOfPassenger": 27 },
+        { "noOfPassenger": 29 }
+      ],
+      "bus_no": "RJ14-EF-9012",
+      "no_of_seats": 55,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "active", "seatVacant": 30 }
+    },
+    {
+      "id": "4",
+      "driverName": "Gopal",
+      "depart_from": "Jaisalmer",
+      "going_to": "Jaipur",
+      "stations": ["Jodhpur", "Ajmer", "Pushkar"],
+      "last_ten_rides": [
+        { "noOfPassenger": 40 },
+        { "noOfPassenger": 38 },
+        { "noOfPassenger": 39 },
+        { "noOfPassenger": 42 },
+        { "noOfPassenger": 43 },
+        { "noOfPassenger": 36 },
+        { "noOfPassenger": 41 },
+        { "noOfPassenger": 38 },
+        { "noOfPassenger": 43 },
+        { "noOfPassenger": 35 }
+      ],
+      "bus_no": "RJ14-GH-9022",
+      "no_of_seats": 60,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "not_running", "seatVacant": null }
+    },
+    {
+      "id": "101",
+      "driverName": "Gaurav",
+      "depart_from": "Udaipur",
+      "going_to": "Jaipur",
+      "stations": ["Chittorgarh", "Bhilwara", "Ajmer"],
+      "last_ten_rides": [
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 32 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 33 },
+        { "noOfPassenger": 29 },
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 34 },
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 35 }
+      ],
+      "bus_no": "RJ14-EQ-1122",
+      "no_of_seats": 50,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "active", "seatVacant": 18 }
+    },
+    {
+      "id": "102",
+      "driverName": "Vijay",
+      "depart_from": "Jodhpur",
+      "going_to": "Udaipur",
+      "stations": ["Pali", "Sirohi", "Mount Abu"],
+      "last_ten_rides": [
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 25 },
+        { "noOfPassenger": 27 },
+        { "noOfPassenger": 24 },
+        { "noOfPassenger": 26 },
+        { "noOfPassenger": 23 },
+        { "noOfPassenger": 22 },
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 25 },
+        { "noOfPassenger": 27 }
+      ],
+      "bus_no": "RJ14-ZF-9912",
+      "no_of_seats": 45,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "not_running", "seatVacant": 0 }
+    },
+    {
+      "id": "103",
+      "driverName": "Rahul",
+      "depart_from": "Jaisalmer",
+      "going_to": "Jaipur",
+      "stations": ["Jodhpur", "Ajmer", "Pushkar"],
+      "last_ten_rides": [
+        { "noOfPassenger": 40 },
+        { "noOfPassenger": 38 },
+        { "noOfPassenger": 39 },
+        { "noOfPassenger": 42 },
+        { "noOfPassenger": 43 },
+        { "noOfPassenger": 36 },
+        { "noOfPassenger": 41 },
+        { "noOfPassenger": 38 },
+        { "noOfPassenger": 39 },
+        { "noOfPassenger": 40 }
+      ],
+      "bus_no": "RJ14-GH-0012",
+      "no_of_seats": 55,
+      "emergency_contact": 9123421222,
+
+      "live_status": { "isrunning": "active", "seatVacant": 22 }
+    },
+    {
+      "id": "201",
+      "driverName": "Hari",
+      "depart_from": "Jaipur",
+      "going_to": "Jodhpur",
+      "stations": ["Ajmer", "Beawar", "Pali"],
+      "last_ten_rides": [
+        { "noOfPassenger": 32 },
+        { "noOfPassenger": 35 },
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 33 },
+        { "noOfPassenger": 36 },
+        { "noOfPassenger": 29 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 34 },
+        { "noOfPassenger": 32 },
+        { "noOfPassenger": 35 }
+      ],
+      "bus_no": "RJ14-IJ-0002",
+      "no_of_seats": 40,
+      "emergency_contact": 9123421222,
+      "live_status": { "isrunning": true, "seatVacant": 8 }
+    },
+    {
+      "id": "202",
+      "driverName": "Rajesh",
+      "depart_from": "Udaipur",
+      "going_to": "Jaisalmer",
+      "stations": ["Chittorgarh", "Bhilwara", "Jodhpur"],
+      "last_ten_rides": [
+        { "noOfPassenger": 37 },
+        { "noOfPassenger": 36 },
+        { "noOfPassenger": 39 },
+        { "noOfPassenger": 38 },
+        { "noOfPassenger": 35 },
+        { "noOfPassenger": 37 },
+        { "noOfPassenger": 34 },
+        { "noOfPassenger": 36 },
+        { "noOfPassenger": 39 },
+        { "noOfPassenger": 38 }
+      ],
+      "bus_no": "RJ14-KL-0087",
+      "no_of_seats": 60,
+      "emergency_contact": 9123421222,
+      "live_status": { "isrunning": true, "seatVacant": 19 }
+    },
+    {
+      "id": "203",
+      "driverName": "Sanjay",
+      "depart_from": "Jodhpur",
+      "going_to": "Jaipur",
+      "stations": ["Pali", "Beawar", "Kishangarh"],
+      "last_ten_rides": [
+        { "noOfPassenger": 28 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 29 },
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 33 },
+        { "noOfPassenger": 32 },
+        { "noOfPassenger": 30 },
+        { "noOfPassenger": 31 },
+        { "noOfPassenger": 29 },
+        { "noOfPassenger": 30 }
+      ],
+      "bus_no": "RJ14-GM-0072",
+      "no_of_seats": 50,
+      "emergency_contact": 9123421222,
+      "live_status": { "isrunning": false, "seatVacant": 0 }
+    }
+  ]
+}

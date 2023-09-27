@@ -1,0 +1,98 @@
+.bus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: burlywood;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    width: fit-content;
+  }
+  
+  .bus-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .bus-driver {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ccc;
+    padding: 10px 10px;
+    border-bottom: 1px solid #999;
+  }
+  
+  .bus-seat-driver {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .bus {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bus-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bus-aisle {
+    width: 20px;
+  }
+  
+  .bus-seat {
+    width: 28px;
+    height: 28px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #999;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .bus-seat-selected {
+    background-color: #33aaff;
+  }
+  
+  .bus-seat-women {
+    background-color: #ff66cc;
+  }
+  
+  .bus-seat-older-citizen {
+    background-color: #66cc33;
+  }
+  
+  .bus-tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+  
+  .bus-tooltip::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+  }
+  
