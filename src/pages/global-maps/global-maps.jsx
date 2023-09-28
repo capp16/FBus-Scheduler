@@ -1,7 +1,7 @@
 import "./global-maps.scss";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
-import Widget from "../../components/widget/Widget";
+// import Widget from "../../components/widget/Widget";
 import {
   ListAltOutlined,
   SearchOffOutlined,
@@ -22,61 +22,61 @@ import {
 } from "recharts";
 import IndiaMapChart from "../../components/india-colored-map/india-colored-map";
 const GlobalMaps = () => {
-  let widgetData = [
-    {
-      title: "SEARCH ACQUIFER",
-      isMoney: false,
-      link: "Search Acquifer",
-      icon: (
-        <SearchOutlined
-          className="icon"
-          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
-        />
-      ),
-    },
-    {
-      title: "WORLD ACQUIFERS",
-      isMoney: false,
-      link: "View all Acquifers",
-      icon: (
-        <ListAltOutlined
-          className="icon"
-          style={{
-            backgroundColor: "rgba(218, 165, 32, 0.2)",
-            color: "goldenrod",
-          }}
-        />
-      ),
-    },
-    {
-      title: "COUNTRY ACQUIFERS",
-      isMoney: false,
-      link: "See details",
-      icon: (
-        <AccountBalanceWalletOutlinedIcon
-          className="icon"
-          style={{
-            backgroundColor: "rgba(128, 0, 128, 0.2)",
-            color: "purple",
-          }}
-        />
-      ),
-    },
-    {
-      title: "USERS",
-      isMoney: false,
-      link: "See all users",
-      icon: (
-        <PersonOutlinedIcon
-          className="icon"
-          style={{
-            color: "crimson",
-            backgroundColor: "rgba(255, 0, 0, 0.2)",
-          }}
-        />
-      ),
-    },
-  ];
+  // let widgetData = [
+  //   {
+  //     title: "SEARCH ACQUIFER",
+  //     isMoney: false,
+  //     link: "Search Acquifer",
+  //     icon: (
+  //       <SearchOutlined
+  //         className="icon"
+  //         style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+  //       />
+  //     ),
+  //   },
+  //   {
+  //     title: "WORLD ACQUIFERS",
+  //     isMoney: false,
+  //     link: "View all Acquifers",
+  //     icon: (
+  //       <ListAltOutlined
+  //         className="icon"
+  //         style={{
+  //           backgroundColor: "rgba(218, 165, 32, 0.2)",
+  //           color: "goldenrod",
+  //         }}
+  //       />
+  //     ),
+  //   },
+  //   {
+  //     title: "COUNTRY ACQUIFERS",
+  //     isMoney: false,
+  //     link: "See details",
+  //     icon: (
+  //       <AccountBalanceWalletOutlinedIcon
+  //         className="icon"
+  //         style={{
+  //           backgroundColor: "rgba(128, 0, 128, 0.2)",
+  //           color: "purple",
+  //         }}
+  //       />
+  //     ),
+  //   },
+  //   {
+  //     title: "USERS",
+  //     isMoney: false,
+  //     link: "See all users",
+  //     icon: (
+  //       <PersonOutlinedIcon
+  //         className="icon"
+  //         style={{
+  //           color: "crimson",
+  //           backgroundColor: "rgba(255, 0, 0, 0.2)",
+  //         }}
+  //       />
+  //     ),
+  //   },
+  // ];
   let barGraphData = [
     {
       name: "Page A",
@@ -171,11 +171,11 @@ const GlobalMaps = () => {
       <Sidebar />
       <div className="globalmapsContainer">
         <Navbar />
-        <div className="widgets">
+        {/* <div className="widgets">
           {widgetData.map((el) => {
             return <Widget data={el} />;
           })}
-        </div>
+        </div> */}
         <div className="a-flex">
           <BarChart width={730} height={250} data={barGraphData}>
             <CartesianGrid strokeDasharray="3 3" />
