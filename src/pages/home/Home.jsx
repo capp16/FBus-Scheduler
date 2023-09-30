@@ -67,6 +67,7 @@ const Home = () => {
     <>
     <div className={`home ${showLogin ?'opacity-less' :''} `}>
       <Sidebar />
+      <Navbar />
       
       <div className="homeContainer">
         <div><Header/></div> 
