@@ -39,10 +39,25 @@ const Sidebar = () => {
               <span>Home</span>
             </li>
           </Link>
+
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <li>
+              <DashboardIcon className="icon" />
+              <span>Account</span>
+            </li>
+          </Link>
+
           <Link to="/users" style={{ textDecoration: "none" }}>
             <li>
               <PersonOutlineIcon className="icon" />
-              <span>Bus List</span>
+              <span>Bus</span>
+            </li>
+          </Link>
+
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <li>
+              <DashboardIcon className="icon" />
+              <span>Route</span>
             </li>
           </Link>
           {/* <Link to="/aquifers" style={{ textDecoration: "none" }}>
@@ -51,31 +66,32 @@ const Sidebar = () => {
               <span>Aquifers</span>
             </li>
           </Link> */}
-          <li>
+          {/* <li>
             <SourceOutlined className="icon" />
             <span>About</span>
-          </li>
+          </li> */}
 
-          <Link to="/analysis" style={{ textDecoration: "none" }}>
+          {/* <Link to="/analysis" style={{ textDecoration: "none" }}>
           <li>
             <InsertChartIcon className="icon" />
             <span>Analysis</span>
           </li>
- </Link>
-          <Link to="/globalmaps" style={{ textDecoration: "none" }}>
+          </Link> */}
+
+          {/* <Link to="/globalmaps" style={{ textDecoration: "none" }}>
             <li>
               <MapOutlined className="icon" />
               <span>Live Map</span>
             </li>
-          </Link>
+          </Link> */}
 
           
 
           
-          <li>
+          {/* <li>
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
-          </li>
+          </li> */}
           {/* <li>
             <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>
