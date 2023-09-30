@@ -1,11 +1,11 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
-import BusRoute from "../../components/trackBus/trackBus";
+// import BusRoute from "../../components/trackBus/trackBus";
 import Header from "../../components/header/header";
 import "./home.scss";
 // import Widget from "../../components/widget/Widget";
 import Featured from "../../components/featured/Featured";
-import Chart from "../../components/chart/Chart";
+// import Chart from "../../components/chart/Chart";
 import Table from "../../components/table/Table";
 import { ListAltOutlined, SearchOffOutlined, SearchOutlined } from "@mui/icons-material";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
@@ -79,9 +79,9 @@ const Home = () => {
           <Featured />
           <Chart title="Last 6 Months (Capacity Vs Month Graph)" aspect={2 / 1} />
         </div> */}
-        <div>
+        {/* <div>
           <BusRoute/>
-        </div>
+        </div> */}
         {userDetails && userDetails.userType &&  userDetails.userType === 'Supervisor' &&<div className="listContainer">
           <div className="listTitle">Latest Trackings:-</div>
           <Table />
