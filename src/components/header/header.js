@@ -5,8 +5,8 @@ import "./header.scss"
 function Header(){
     return (
         <div className="header">
-        <img alt="IRCTC Bus Booking" className="img-fluid" src={Bus1Image}/>
-        <img alt="Book Online Bus"  src={Bus2Image}/> 
+        {/* <img alt="IRCTC Bus Booking" className="img-fluid" src={Bus1Image}/>
+        <img alt="Book Online Bus"  src={Bus2Image}/>  */}
         </div>
     )
 }
