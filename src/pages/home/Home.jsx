@@ -75,10 +75,10 @@ const Home = () => {
             return <Widget data={el} />
           })}
         </div> */}
-        <div className="charts">
+        {/* <div className="charts">
           <Featured />
           <Chart title="Last 6 Months (Capacity Vs Month Graph)" aspect={2 / 1} />
-        </div>
+        </div> */}
         <div>
           <BusRoute/>
         </div>
