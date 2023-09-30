@@ -1,6 +1,6 @@
 import "./header.scss";
-import Bus1Image from "../../assets/imgs/Bus1.png";
-import Bus2Image from "../../assets/imgs/Bus2.png"
+// import Bus1Image from "../../assets/imgs/Bus1.png";
+// import Bus2Image from "../../assets/imgs/Bus2.png"
 
 function Header(){
     return (
