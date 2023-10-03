@@ -40,9 +40,9 @@ const Sidebar = () => {
             </li>
           </Link>
 
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/aquifers" style={{ textDecoration: "none" }}>
             <li>
-              <DashboardIcon className="icon" />
+              <StoreIcon className="icon" />
               <span>Account</span>
             </li>
           </Link>
