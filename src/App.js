@@ -12,7 +12,7 @@ import "./style/styles.css";
 
 import { useContext, useEffect } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
-import KnowYourAquifer from "./pages/know-your-aquifer";
+// import KnowYourAquifer from "./pages/know-your-aquifer";
 import GlobalMaps from "./pages/global-maps/global-maps";
 import { UserContext } from "./context/userContext";
 import Analysis from "./pages/analysis/analysis"
@@ -45,17 +45,17 @@ function App() {
               />
             </Route>
             <Route path="survey" element={<Survey />}></Route>
-            <Route path="aquifers" element={<KnowYourAquifer />}></Route>
+            {/* <Route path="aquifers" element={<KnowYourAquifer />}></Route> */}
             <Route path="globalmaps" element={<GlobalMaps />}></Route>
             <Route path="analysis" element={<Analysis />}></Route>
-            {/* <Route path="products">
+            <Route path="products">
               <Route index element={<List />} />
               <Route path=":productId" element={<Single />} />
               <Route
                 path="new"
                 element={<New inputs={productInputs} title="Add New Product" />}
               />
-            </Route> */}
+            </Route>
             <Route path="login" element={<Login />}></Route>
           </Route>
         </Routes>
