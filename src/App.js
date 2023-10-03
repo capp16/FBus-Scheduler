@@ -16,7 +16,7 @@ import { DarkModeContext } from "./context/darkModeContext";
 import GlobalMaps from "./pages/global-maps/global-maps";
 import { UserContext } from "./context/userContext";
 import Analysis from "./pages/analysis/analysis"
-import Survey from "./components/generateSurvey/generateSurvey";
+// import Survey from "./components/generateSurvey/generateSurvey";
 function App() {
   const { darkMode } = useContext(DarkModeContext);
   const { userDetails } = useContext(UserContext);
@@ -44,18 +44,18 @@ function App() {
                 element={<New inputs={userInputs} title="Add New User" />}
               />
             </Route>
-            <Route path="survey" element={<Survey />}></Route>
+            {/* <Route path="survey" element={<Survey />}></Route> */}
             {/* <Route path="aquifers" element={<KnowYourAquifer />}></Route> */}
             <Route path="globalmaps" element={<GlobalMaps />}></Route>
             <Route path="analysis" element={<Analysis />}></Route>
-            <Route path="products">
+            {/* <Route path="products">
               <Route index element={<List />} />
               <Route path=":productId" element={<Single />} />
               <Route
                 path="new"
                 element={<New inputs={productInputs} title="Add New Product" />}
               />
-            </Route>
+            </Route> */}
             <Route path="login" element={<Login />}></Route>
           </Route>
         </Routes>
